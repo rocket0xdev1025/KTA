@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280">
+<title>Kimchi Theft Auto ($KTA)</title>
+<meta name="description" content="Kimchi Theft Auto ($KTA) on Solana. Two troublemakers. One jar. Zero chill.">
+<meta property="og:title" content="Kimchi Theft Auto ($KTA)">
+<meta property="og:description" content="Everyone wants the car. He's here for the kimchi.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top"><img src="assets/logo-sm.jpg" alt="" width="34" height="34"><span>KIMCHI THEFT AUTO</span></a>
+  <nav>
+    <a href="#crew">The Story</a><i>·</i>
+    <a href="#getaway">Getaway</a><i>·</i>
+    <a href="#outtakes">Memes</a><i>·</i>
+    <a href="#token">How to Buy</a>
+  </nav>
+  <div class="wanted" aria-label="Wanted level" title="Wanted level"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<aside class="rail" aria-label="Scenes">
+  <a href="#crew" data-rail="crew"><b>01</b><span>The Crew</span></a>
+  <a href="#cargo" data-rail="cargo"><b>02</b><span>The Cargo</span></a>
+  <a href="#getaway" data-rail="getaway"><b>03</b><span>Choose the Getaway</span></a>
+  <a href="#outtakes" data-rail="outtakes"><b>04</b><span>The Outtakes</span></a>
+  <a href="#token" data-rail="token"><b>05</b><span>Token Details</span></a>
+</aside>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="poster art" data-asset="hero.jpg">
+    <img src="assets/hero.jpg" alt="Kimchi Theft Auto: the couple leaning on a pink supercar, the title in a neon VI frame, him hugging the kimchi jar under a helicopter, and a speedboat on the waterfront" width="2172" height="724">
+    <svg class="hotspots" viewBox="0 0 2172 724" aria-hidden="true">
+      <g data-scene="crew"><polygon points="0,0 860,0 1080,724 0,724"/><text x="430" y="640">THE CREW</text></g>
+      <g data-scene="cargo"><polygon points="1560,0 2172,0 2172,330 1540,420"/><text x="1880" y="300">THE CARGO</text></g>
+      <g data-scene="exit"><polygon points="1440,470 2172,360 2172,724 1380,724"/><text x="1800" y="680">THE EXIT</text></g>
+    </svg>
+  </div>
+
+  <div class="hero-copy">
+    <h1 class="tag glitch">EVERYONE WANTS THE CAR.<br><em>HE’S HERE FOR THE KIMCHI.</em></h1>
+    <p class="ticker"><b>$KTA</b> · Solana</p>
+    <div class="actions">
+      <a class="btn" data-buy target="_blank" rel="noopener">Buy $KTA</a>
+      <a class="btn ghost" data-chart target="_blank" rel="noopener">View Chart</a>
+      <a class="btn ghost" data-x target="_blank" rel="noopener">X</a>
+    </div>
+    <div class="ca-strip">
+      <span class="ca-label">CONTRACT ADDRESS</span>
+      <code data-ca></code>
+      <button class="btn small" data-copy>Copy CA</button>
+    </div>
+  </div>
+
+  <div class="scene-btns" role="tablist" aria-label="Banner scenes">
+    <button data-scene-btn="crew" role="tab" aria-selected="false"><small>Scene A</small>THE CREW</button>
+    <button data-scene-btn="cargo" role="tab" aria-selected="false"><small>Scene B</small>THE CARGO</button>
+    <button data-scene-btn="exit" role="tab" aria-selected="false"><small>Scene C</small>THE EXIT</button>
+  </div>
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer-art art"><img alt=""></div>
+    <div class="drawer-copy">
+      <p class="kicker"></p>
+      <h3></h3>
+      <p class="drawer-text"></p>
+      <a class="btn small" href="#">Go to scene →</a>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track">
+  <span>KIMCHI THEFT AUTO</span><b>★</b><span>$KTA ON SOLANA</span><b>★</b><span>WANTED: ONE JAR</span><b>★</b><span>LAST SEEN IN A PINK SUPERCAR</span><b>★</b><span>DO NOT APPROACH THE KIMCHI</span><b>★</b>
+  <span>KIMCHI THEFT AUTO</span><b>★</b><span>$KTA ON SOLANA</span><b>★</b><span>WANTED: ONE JAR</span><b>★</b><span>LAST SEEN IN A PINK SUPERCAR</span><b>★</b><span>DO NOT APPROACH THE KIMCHI</span><b>★</b>
+</div></div>
+
+<!-- ============ THE CREW ============ -->
+<section class="scene crew" id="crew" data-scene-id="crew">
+  <p class="slate reveal">SCENE 01 <span>/</span> THE CREW</p>
+  <div class="crew-stage reveal">
+    <div class="cut art settle" data-asset="crew-wide.jpg"><img src="assets/crew-wide.jpg" alt="Her draped against his shoulder while he leans on the pink supercar, kimchi jar at his hip" loading="lazy"></div>
+    <div class="crew-line her sub">
+      <h2>SHE BROUGHT AN EXIT PLAN.</h2>
+      <p>She knows where they’re going. He wants to know whether the jar gets a seat belt.</p>
+    </div>
+    <div class="crew-line him sub">
+      <h2>HE BROUGHT THE JAR.</h2>
+      <p>He has the car, the confidence, and absolutely no intention of leaving his kimchi behind.</p>
+    </div>
+  </div>
+
+  <div class="crew-cards">
+    <figure class="card her reveal" data-tilt>
+      <div class="art settle" data-asset="poster-her.jpg"><img src="assets/poster-her.jpg" alt="Her, loading-screen portrait" loading="lazy"></div>
+      <figcaption class="sub"><b>THE CREW</b><span>Route · Keys · Patience (low)</span></figcaption>
+    </figure>
+    <div class="dialogue reveal" aria-label="Dialogue">
+      <p class="sub"><b class="h">HER</b>Tell me you packed the essentials.</p>
+      <p class="sub"><b class="m">HIM</b>You’re looking at them.</p>
+      <p class="sub"><b class="h">HER</b>That is one jar.</p>
+      <p class="sub big"><b class="m">HIM</b>Exactly.</p>
+    </div>
+    <figure class="card him reveal" data-tilt>
+      <div class="art settle" data-asset="poster-him.jpg"><img src="assets/poster-him.jpg" alt="Him hugging the jar, loading-screen portrait" loading="lazy"></div>
+      <figcaption class="sub"><b>THE CARGO HANDLER</b><span>Confidence · Kimchi · Eyes (closed)</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="quiet reveal"><p class="sub glitch">ONE JAR. <span>THREE GETAWAYS.</span></p></section>
+
+<!-- ============ THE CARGO ============ -->
+<section class="scene cargo" id="cargo" data-scene-id="cargo">
+  <p class="slate reveal">SCENE 02 <span>/</span> THE CARGO</p>
+  <h2 class="reveal"><span class="sub glitch">THE MOST OVERPROTECTED<br>SIDE DISH IN THE CITY.</span></h2>
+  <div class="reveal-stage reveal">
+    <div class="plinth art" data-asset="jar-plinth.jpg"><img src="assets/jar-plinth.jpg" alt="" loading="lazy"></div>
+    <div class="jar art settle" data-asset="jar-reveal.png"><img src="assets/jar-reveal.png" alt="The kimchi jar, lit like a luxury product" loading="lazy"></div>
+    <p class="callout c1 sub"><span>Glass exterior.</span></p>
+    <p class="callout c2 sub"><span>Questionable travel arrangements.</span></p>
+    <p class="callout c3 sub"><span>Extremely personal contents.</span></p>
+  </div>
+  <p class="about reveal"><span class="sub">Kimchi Theft Auto brings neon getaways, reckless charm, and precious kimchi to Solana. Two troublemakers. One jar. Zero chill.</span></p>
+</section>
+
+<!-- ============ GETAWAY ============ -->
+<section class="scene getaway" id="getaway" data-scene-id="getaway">
+  <p class="slate reveal">SCENE 03 <span>/</span> CHOOSE THE GETAWAY</p>
+  <div class="routes reveal" role="tablist" aria-label="Getaway route"></div>
+  <div class="route-foot">
+    <div class="route-talk" aria-live="polite"></div>
+    <button class="btn" id="play">▶ Play the Sequence</button>
+  </div>
+  <p class="note">An illustrated scene sequence: three stills and captions. Not a video, not a game.</p>
+</section>
+
+<section class="quiet reveal"><p class="sub glitch">THE CITY IS ON FIRE. <span>HE CHECKED THE LID.</span></p></section>
+
+<!-- ============ SPOTLIGHT ============ -->
+<section class="scene spot">
+  <p class="slate reveal">INTERMISSION <span>/</span> WHAT ARE THEY ACTUALLY CHASING?</p>
+  <div class="spot-wrap">
+    <div class="spot-frame art" data-asset="spotlight-aerial.jpg" id="spotFrame">
+      <img src="assets/spotlight-aerial.jpg" alt="Aerial view of the city with the car, the crew and the jar hidden in it" loading="lazy">
+      <div class="dim"></div>
+      <div class="ring"></div>
+      <div class="stamp" id="stamp">PRIORITIES CONFIRMED.</div>
+    </div>
+    <div class="spot-side">
+      <p class="hint">Move the spotlight across the city, or pick a target.</p>
+      <div class="spot-btns">
+        <button data-target="car">The Car</button>
+        <button data-target="crew">The Crew</button>
+        <button data-target="jar">The Jar</button>
+      </div>
+      <ol class="spot-log" id="spotLog"></ol>
+      <button class="link" id="spotReset" hidden>Reset the investigation</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEME MAKER ============ -->
+<section class="scene maker">
+  <p class="slate reveal">EDIT BAY <span>/</span> CUT THE TRAILER CAPTION</p>
+  <div class="maker-grid">
+    <div class="maker-controls">
+      <fieldset>
+        <legend>1 · Scene</legend>
+        <div class="chips" id="mkScene"></div>
+      </fieldset>
+      <fieldset>
+        <legend>2 · Caption</legend>
+        <div class="chips stack" id="mkPreset"></div>
+        <label>She thought we were escaping with…<input id="mkA" maxlength="26" autocomplete="off"></label>
+        <label>He actually brought…<input id="mkB" maxlength="26" autocomplete="off"></label>
+      </fieldset>
+      <fieldset>
+        <legend>3 · Style</legend>
+        <div class="chips" id="mkStyle"></div>
+      </fieldset>
+      <div class="actions">
+        <button class="btn" id="mkDownload">Download Meme</button>
+        <button class="btn ghost" id="mkShare">Share…</button>
+      </div>
+    </div>
+    <div class="maker-preview"><canvas id="mkCanvas" width="1080" height="1080" aria-label="Meme preview"></canvas></div>
+  </div>
+</section>
+
+<!-- ============ OUTTAKES ============ -->
+<section class="scene outtakes" id="outtakes" data-scene-id="outtakes">
+  <p class="slate reveal">SCENE 04 <span>/</span> THE OUTTAKES</p>
+  <div class="strips" id="strips"></div>
+</section>
+
+<!-- ============ TOKEN ============ -->
+<section class="scene token" id="token" data-scene-id="token">
+  <p class="slate reveal">SCENE 05 <span>/</span> THE TOKEN DETAILS.</p>
+  <div class="token-grid">
+    <dl class="facts">
+      <div><dt>Name</dt><dd>Kimchi Theft Auto</dd></div>
+      <div><dt>Ticker</dt><dd>$KTA</dd></div>
+      <div><dt>Network</dt><dd>Solana</dd></div>
+      <div class="ca-row"><dt>Contract</dt><dd><code data-ca></code><button class="btn small" data-copy>Copy CA</button></dd></div>
+      <div><dt>Links</dt><dd class="links"><a data-buy target="_blank" rel="noopener">pump.fun</a><a data-chart target="_blank" rel="noopener">Dexscreener</a><a data-x target="_blank" rel="noopener">X</a></dd></div>
+    </dl>
+    <ol class="steps">
+      <li><b>01</b><h4>Get a Solana wallet</h4><p>Install a compatible Solana wallet such as Phantom or Solflare and back up your recovery phrase offline.</p></li>
+      <li><b>02</b><h4>Add SOL</h4><p>Fund it with SOL, and keep a little extra back for transaction fees.</p></li>
+      <li><b>03</b><h4>Verify the contract</h4><p>Compare the address character by character with the official CA above. Copycats exist.</p></li>
+      <li><b>04</b><h4>Review the swap</h4><p>Open <a data-buy target="_blank" rel="noopener">pump.fun</a>, confirm the token and amount, then approve.</p></li>
+    </ol>
+  </div>
+  <div class="chart" id="chart">
+    <div class="chart-head"><span>$KTA / SOL</span><b class="badge" id="chartBadge">Standby</b><a data-chart target="_blank" rel="noopener">Open on Dexscreener ↗</a></div>
+    <div class="chart-body" id="chartBody">
+      <div class="standby"><b>AWAITING MARKET DATA</b><span>The live chart appears here as soon as the official market is configured.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="finale">
+  <div class="art settle reveal" data-asset="finale.jpg"><img src="assets/finale.jpg" alt="The couple on the pink car at the waterfront, the jar raised to the sunset" loading="lazy"></div>
+  <h2 class="reveal"><span class="sub glitch">LOVE THE CHAOS.<br><em>PROTECT THE KIMCHI.</em></span></h2>
+  <div class="finale-actions">
+    <a class="btn" data-buy target="_blank" rel="noopener">Buy $KTA</a>
+    <a class="btn ghost" data-chart target="_blank" rel="noopener">Chart</a>
+    <a class="btn ghost" data-x target="_blank" rel="noopener">X</a>
+    <button class="btn ghost" data-copy>Copy CA</button>
+  </div>
+  <div class="dialogue end">
+    <p><b class="h">HER</b>We made it.</p>
+    <p class="big"><b class="m">HIM</b>So did the jar.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p><b>KIMCHI THEFT AUTO ($KTA)</b> is a meme token and a parody. It is not affiliated with, endorsed by, or connected to Rockstar Games, Take-Two Interactive or any vehicle maker. No promise of value or return. Do your own research.</p>
+</footer>
+
+<!-- sequence player -->
+<dialog class="seq" id="seq" aria-label="Scene sequence">
+  <div class="seq-bars" id="seqBars"></div>
+  <div class="seq-stage" id="seqStage"></div>
+  <p class="seq-sub" id="seqSub"></p>
+  <button class="seq-nav prev" id="seqPrev" aria-label="Previous still">‹</button>
+  <button class="seq-nav next" id="seqNext" aria-label="Next still">›</button>
+  <button class="x-close" id="seqClose" aria-label="Close">✕</button>
+  <span class="seq-tag" id="seqTag"></span>
+</dialog>
+
+<!-- lightbox -->
+<dialog class="lb" id="lb" aria-label="Image viewer">
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+  <button class="seq-nav prev" id="lbPrev" aria-label="Previous image">‹</button>
+  <button class="seq-nav next" id="lbNext" aria-label="Next image">›</button>
+  <button class="x-close" id="lbClose" aria-label="Close">✕</button>
+  <a class="btn small lb-dl" id="lbDl" download>Download</a>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="crt" aria-hidden="true"></div>
+<script src="app.js"></script>
+</body>
+</html>
